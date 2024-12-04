@@ -7,6 +7,14 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BalanceInfoBar: typeof import('./src/components/User/BalanceInfoBar.vue')['default']
+    BetCart: typeof import('./src/components/Sport/BetCart.vue')['default']
+    BetCartButton: typeof import('./src/components/Sport/BetCartButton.vue')['default']
+    BetCartCalculator: typeof import('./src/components/Sport/BetCartCalculator.vue')['default']
+    BetCartParlayCard: typeof import('./src/components/Sport/BetCartParlayCard.vue')['default']
+    BetCartTeam: typeof import('./src/components/Sport/BetCartTeam.vue')['default']
+    BetOrderResultModal: typeof import('./src/components/Modal/BetOrderResultModal.vue')['default']
+    BetOrderSuccessModal: typeof import('./src/components/Modal/BetOrderSuccessModal.vue')['default']
     CalendarModal: typeof import('./src/components/Modal/CalendarModal.vue')['default']
     CommonModal: typeof import('./src/components/Modal/CommonModal/CommonModal.vue')['default']
     copy: typeof import('./src/components/Modal/NumberModal copy.vue')['default']
@@ -16,6 +24,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SuccessModal: typeof import('./src/components/Modal/SuccessModal.vue')['default']
+    SvgIcon: typeof import('./src/components/SvgIcon.vue')['default']
     Tabbar: typeof import('./src/components/Tabbar.vue')['default']
     VanButton: typeof import('vant/es')['Button']
     VanCell: typeof import('vant/es')['Cell']

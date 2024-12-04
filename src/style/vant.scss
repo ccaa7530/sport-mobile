@@ -1,0 +1,54 @@
+.van-button--normal {
+  background: rgb(12, 24, 108) !important;
+  border-color: rgb(12, 24, 108) !important;
+}
+
+.van-button--default {
+  background: rgb(237, 241, 249) !important;
+  border-color: rgb(237, 241, 249) !important;
+}
+
+.van-button {
+  font-size: 16px !important;
+  height: 56px !important;
+  border-radius: 10px !important;
+  margin: 0 auto 16px auto !important;
+}
+
+.van-nav-bar {
+  border-radius: 20px 20px 0 0;
+}
+
+.van-nav-bar__text,
+.van-nav-bar .van-icon {
+  color: #000 !important;
+}
+
+.van-field {
+  border-radius: 10px !important;
+  margin-bottom: 16px !important;
+}
+
+.van-popup:not(.van-toast) {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+.van-picker__columns {
+  height: 669px !important;
+}
+
+.van-tabbar {
+  height: 52px !important;
+  padding: 10px 0 !important;
+}
+
+.van-tabbar-item__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.van-swipe__indicators {
+  bottom: -10% !important;
+}
